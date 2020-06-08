@@ -3,7 +3,21 @@ entries:
   vertical-pod-autoscaler:
   - apiVersion: v1
     appVersion: 0.8.0
-    created: "2020-06-08T19:06:18.00187-04:00"
+    created: "2020-06-08T19:17:33.333799-04:00"
+    description: Set of components that automatically adjust the amount of CPU and
+      memory requested by pods running in the Kubernetes Cluster
+    digest: 3ae405a8d5d45b08bad0458ed525273fc5f5db58ea1dc66b3cb01d7059876165
+    home: https://github.com/kubernetes/autoscaler
+    maintainers:
+    - email: sebastien.prudhomme@gmail.com
+      name: sebastien-prudhomme
+    name: vertical-pod-autoscaler
+    urls:
+    - vertical-pod-autoscaler-1.4.3.tgz
+    version: 1.4.3
+  - apiVersion: v1
+    appVersion: 0.8.0
+    created: "2020-06-08T19:17:33.332602-04:00"
     description: Set of components that automatically adjust the amount of CPU and
       memory requested by pods running in the Kubernetes Cluster
     digest: 7fb2948479f6b67cd9a4415edf6c478beb02724b5892bb1ad8b7b278111a13d8
@@ -15,4 +29,4 @@ entries:
     urls:
     - vertical-pod-autoscaler-1.4.2.tgz
     version: 1.4.2
-generated: "2020-06-08T19:06:17.995954-04:00"
+generated: "2020-06-08T19:17:33.329125-04:00"
